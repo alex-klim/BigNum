@@ -107,6 +107,7 @@ inline BigNum BigNum::operator+ (BigNum& rhs){
     }
     return res;
 }
+
 inline BigNum BigNum::operator- (BigNum& rhs){
     std::cout << "minus" << std::endl;
     BigNum res;
@@ -130,6 +131,7 @@ inline BigNum BigNum::operator- (BigNum& rhs){
     }
     return res;
 }
+
 inline BigNum BigNum::operator* (BigNum& rhs){
     std::cout << "multiply" << std::endl;
     BigNum res;
